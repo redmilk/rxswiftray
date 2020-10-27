@@ -29,6 +29,10 @@
 		79EC06E82514BCFD0050F10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EC06EB2514BCFD0050F10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79EC06ED2514BCFD0050F10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F50DE3251B80CB00D96633 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = RxSwiftPlayground.playground; path = "../../../RxSwift Book Files/backup/07-transforming-operators/challenge/challenge1-starter/rxplayground/RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		79F50DE5251B87ED00D96633 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = RxSwiftPlayground.playground; path = "../../../../RxSwift Book Files/backup/07-transforming-operators/challenge/challenge1-finished/RxPlayground/RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		79F50DE7251E547A00D96633 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = RxSwiftPlayground.playground; path = "../../../RxSwift Book Files/backup/09-combining-operators/challenge/challenge1-starter/RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		79F50DE9251E549500D96633 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = RxSwiftPlayground.playground; path = "../../../../RxSwift Book Files/backup/09-combining-operators/challenge/challenge1-finished/RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		79FD691C2518DCEB006F2017 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		79FD691D2518DCF9006F2017 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCCBA6FF91834877E1F7CDE1 /* Pods-RxSwiftBookChapters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBookChapters.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftBookChapters/Pods-RxSwiftBookChapters.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		79465F472514C01000C0243D /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				79F50DE6251E545300D96633 /* 9 Combining Operators Challange */,
+				79F50DE2251B809700D96633 /* 7 Transformin Operators Challange */,
 				79FD691B2518DCD3006F2017 /* Filtering Operators Challange Finished */,
 				79FD691A2518DCB1006F2017 /* Filtering Operators Challange Starter */,
 				796CD6B92514C59D00015ACA /* Subjects Challange 2 */,
@@ -113,6 +119,40 @@
 				79EC06ED2514BCFD0050F10F /* Info.plist */,
 			);
 			path = RxSwiftBookChapters;
+			sourceTree = "<group>";
+		};
+		79F50DE2251B809700D96633 /* 7 Transformin Operators Challange */ = {
+			isa = PBXGroup;
+			children = (
+				79F50DE4251B87E000D96633 /* Finished */,
+				79F50DE3251B80CB00D96633 /* RxSwiftPlayground.playground */,
+			);
+			path = "7 Transformin Operators Challange";
+			sourceTree = "<group>";
+		};
+		79F50DE4251B87E000D96633 /* Finished */ = {
+			isa = PBXGroup;
+			children = (
+				79F50DE5251B87ED00D96633 /* RxSwiftPlayground.playground */,
+			);
+			path = Finished;
+			sourceTree = "<group>";
+		};
+		79F50DE6251E545300D96633 /* 9 Combining Operators Challange */ = {
+			isa = PBXGroup;
+			children = (
+				79F50DE8251E548400D96633 /* finished */,
+				79F50DE7251E547A00D96633 /* RxSwiftPlayground.playground */,
+			);
+			path = "9 Combining Operators Challange";
+			sourceTree = "<group>";
+		};
+		79F50DE8251E548400D96633 /* finished */ = {
+			isa = PBXGroup;
+			children = (
+				79F50DE9251E549500D96633 /* RxSwiftPlayground.playground */,
+			);
+			path = finished;
 			sourceTree = "<group>";
 		};
 		79FD691A2518DCB1006F2017 /* Filtering Operators Challange Starter */ = {

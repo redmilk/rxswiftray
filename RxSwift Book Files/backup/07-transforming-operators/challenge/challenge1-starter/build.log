@@ -1,0 +1,4 @@
+Build settings from command line:
+    SDKROOT = iphonesimulator13.2
+
+xcodebuild: error: 'RxSwiftPlayground.xcworkspace' does not exist.
